@@ -12,13 +12,12 @@
 Multi-language README support
 -->
 
-[![es](https://img.shields.io/badge/lang-es-yellow.svg)](Source/docs/README.es.md)
-[![de](https://img.shields.io/badge/lang-de-black.svg)](Source/docs/README.de.md)
-[![nl](https://img.shields.io/badge/lang-nl-green.svg)](Source/docs/README.nl.md)
-[![中文](https://img.shields.io/badge/lang-中文-orange.svg)](Source/docs/README.zh.md)
-[![fr](https://img.shields.io/badge/lang-fr-blue.svg)](Source/docs/README.fr.md)
-[![ar](https://img.shields.io/badge/lang-AR-orange.svg)](Source/docs/README.ar.md)
-[![pt-br](https://img.shields.io/badge/lang-pt--br-006400.svg)](Source/docs/README.pt-br.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](../../README.md)
+[![es](https://img.shields.io/badge/lang-es-yellow.svg)](README.es.md)
+[![nl](https://img.shields.io/badge/lang-nl-green.svg)](README.nl.md)
+[![中文](https://img.shields.io/badge/lang-中文-orange.svg)](README.zh.md)
+[![fr](https://img.shields.io/badge/lang-fr-blue.svg)](README.fr.md)
+[![ar](https://img.shields.io/badge/lang-AR-orange.svg)](README.ar.md)
 
 <div align="center">
 
@@ -46,7 +45,7 @@ Multi-language README support
   </div>
 </div>
 
-Check this out for the full note:
+Confira a nota completa:
 [Journey to HyDE and beyond](./Hyprdots-to-HyDE.md)
 
 <!--
