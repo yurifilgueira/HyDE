@@ -27,8 +27,7 @@ Multi-language README support
 <a href="#atualizando"><kbd> <br> Atualizando <br> </kbd></a>&ensp;&ensp;
 <a href="#temas"><kbd> <br> Temas <br> </kbd></a>&ensp;&ensp;
 <a href="#estilos"><kbd> <br> Estilos <br> </kbd></a>&ensp;&ensp;
-<a href="CONTRIBUTING.md"><kbd> <br> Contribuindo <br> </kbd></a>&ensp;&ensp;
-<a href="KEYBINDINGS.br.md"><kbd> <br> Atalhos de teclado <br> </kbd></a>&ensp;&ensp;
+<a href="KEYBINDINGS.pt-br.md"><kbd> <br> Atalhos de teclado <br> </kbd></a>&ensp;&ensp;
 <a href="https://www.youtube.com/watch?v=2rWqdKU1vu8&list=PLt8rU_ebLsc5yEHUVsAQTqokIBMtx3RFY&index=1"><kbd> <br> Youtube <br> </kbd></a>&ensp;&ensp;
 <a href="https://hydeproject.pages.dev/"><kbd> <br> Wiki <br> </kbd></a>&ensp;&ensp;
 <a href="https://discord.gg/qWehcFJxPa"><kbd> <br> Discord <br> </kbd></a>
@@ -46,7 +45,7 @@ Multi-language README support
 </div>
 
 Confira a nota completa:
-[Journey to HyDE and beyond](./Hyprdots-to-HyDE.md)
+[Jornada para HyDE e além](./Hyprdots-to-HyDE.md)
 
 <!--
 <img alt="Dynamic JSON Badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscordapp.com%2Fapi%2Finvites%2FmT5YqjaJFh%3Fwith_counts%3Dtrue&query=%24.approximate_member_count&suffix=%20members&style=for-the-badge&logo=discord&logoSize=auto&label=The%20HyDe%20Project&labelColor=ebbcba&color=c79bf0">
@@ -58,8 +57,8 @@ Confira a nota completa:
 
 <br>
 
-<a id="instalacao"></a>
-<img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=25&pause=1000&color=CCA9DD&vCenter=true&width=435&height=25&lines=INSTALA%C3%87%C3%83O" width="450"/>
+<a id="instalacao"></a>instalacao
+<img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=25&pause=1000&color=CCA9DD&vCenter=true&width=435&height=25&lines=INSTALAÇAO" width="450"/>
 
 ---
 
@@ -68,11 +67,11 @@ Embora instalar o HyDE com outro [ambiente desktop (DE)](https://wiki.archlinux.
 
 Para o suporte a NixOS, existe um projeto separado sendo mantido em @ [Hydenix](https://github.com/richen604/hydenix/tree/main)
 
-> [!IMPORTANTE]
+> [!IMPORTANT]
 > O script de instalação detectará automaticamente uma placa NVIDIA e instalará os drivers nvidia-dkms para o seu kernel.
 > Por favor, verifique se sua placa NVIDIA é compatível com os drivers nvidia-dkms listados [aqui](https://wiki.archlinux.org/title/NVIDIA).
 
-> [!CUIDADO]
+> [!CAUTION]
 > O script de instalação modifica as configurações do seu `grub` ou `systemd-boot` para habilitar o DRM da NVIDIA.
 
 Para instalar, execute os comandos abaixo:
@@ -84,14 +83,14 @@ cd ~/HyDE/Scripts
 ./install.sh
 ```
 
-> [!DICA]
+> [!TIP]
 > Você também pode adicionar outros aplicativos que deseja instalar juntamente com o HyDE no arquivo `Scripts/pkg_user.lst` e passá-lo como parâmetro para o script de instalação, assim:
 >
 > ```shell
 > ./install.sh pkg_user.lst
 > ```
 
-> [!IMPORTANTE]
+> [!IMPORTANT]
 > Consulte sua lista em `Scripts/pkg_extra.lst`
 > ou você pode executar `cp Scripts/pkg_extra.lst Scripts/pkg_user.lst` se você deseja instalar todos os pacotes extras.
 
@@ -108,31 +107,6 @@ Para mais detalhes, por favor consulte a [wiki de instalação](https://github.c
   <a href="#-design-by-t2"><kbd> <br> 🡅 <br> </kbd></a>
 </div>
 
-<div align="right">
-  <br>
-  <a href="#-design-by-t2"><kbd> <br> 🡅 <br> </kbd></a>
-</div>
-
-<a id="contributing"></a>
-<img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=25&pause=1000&color=CCA9DD&vCenter=true&width=435&height=25&lines=CONTRIBUINDO" width="450"/>
-
----
-
-[!IMPORTANTE]
-Agradecemos as contribuições da comunidade! Para começar:
-
-- Consulte nossas diretrizes em [CONTRIBUTING.md](CONTRIBUTING.md)
-- Conheça os papéis da equipe em [TEAM_ROLES.md](TEAM_ROLES.md)
-- Entenda nosso processo de lançamento [RELEASE_POLICY.md](RELEASE_POLICY.md)
-- Ao enviar seu primeiro PR, adicione seu nome ao [CONTRIBUTORS.md](CONTRIBUTORS.md)
-
-Seja contribuindo com código, testes ou documentação, agradecemos seu apoio para tornar o HyDE melhor para todos. Obrigado!
-
-<div align="right">
-  <br>
-  <a href="#-design-by-t2"><kbd> <br> 🡅 <br> </kbd></a>
-</div>
-
 <a id="atualizando"></a>
 <img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=25&pause=1000&color=CCA9DD&vCenter=true&width=435&height=25&lines=ATUALIZANDO" width="450"/>
 
@@ -146,7 +120,7 @@ git pull origin master
 ./install.sh -r
 ```
 
-> [!IMPORTANTE]
+> [!IMPORTANT]
 > Observe que quaisquer configurações que você tenha feito serão sobrescritas se estiverem listadas para isso no arquivo `Scripts/restore_cfg.psv`.
 > No entanto, todas as configurações substituídas são armazenadas em backup e podem ser recuperadas no diretório `~/.config/cfg_backups`.
 
@@ -187,7 +161,7 @@ Para mais informações, visite [HyDE-Project/hyde-themes](https://github.com/Hy
   </td></tr></table>
 </div>
 
-> [!DICA]
+> [!TIP]
 > Qualquer pessoa, inclusive você, pode criar, manter e compartilhar temas adicionais, todos os quais podem ser instalados utilizando o themepatcher!
 > Para criar seu próprio tema personalizado, consulte [theming wiki](https://github.com/prasanthrangan/hyprdots/wiki/Theming).
 > Se você deseja que seu tema HyDE seja exibido ou quer explorar temas não oficiais, visite [kRHYME7/hyde-gallery](https://github.com/kRHYME7/hyde-gallery)!
