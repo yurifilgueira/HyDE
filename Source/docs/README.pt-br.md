@@ -27,7 +27,7 @@ Multi-language README support
 <a href="#atualizando"><kbd> <br> Atualizando <br> </kbd></a>&ensp;&ensp;
 <a href="#temas"><kbd> <br> Temas <br> </kbd></a>&ensp;&ensp;
 <a href="#estilos"><kbd> <br> Estilos <br> </kbd></a>&ensp;&ensp;
-<a href="KEYBINDINGS.md"><kbd> <br> Atalhos de teclado <br> </kbd></a>&ensp;&ensp;
+<a href="../../KEYBINDINGS.md"><kbd> <br> Atalhos de teclado <br> </kbd></a>&ensp;&ensp;
 <a href="https://www.youtube.com/watch?v=2rWqdKU1vu8&list=PLt8rU_ebLsc5yEHUVsAQTqokIBMtx3RFY&index=1"><kbd> <br> Youtube <br> </kbd></a>&ensp;&ensp;
 <a href="https://hydeproject.pages.dev/"><kbd> <br> Wiki <br> </kbd></a>&ensp;&ensp;
 <a href="https://discord.gg/qWehcFJxPa"><kbd> <br> Discord <br> </kbd></a>
@@ -45,7 +45,7 @@ Multi-language README support
 </div>
 
 Confira a nota completa:
-[Jornada para HyDE e além](./Hyprdots-to-HyDE.md)
+[Jornada para HyDE e além](../../Hyprdots-to-HyDE.md)
 
 <!--
 <img alt="Dynamic JSON Badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscordapp.com%2Fapi%2Finvites%2FmT5YqjaJFh%3Fwith_counts%3Dtrue&query=%24.approximate_member_count&suffix=%20members&style=for-the-badge&logo=discord&logoSize=auto&label=The%20HyDe%20Project&labelColor=ebbcba&color=c79bf0">
@@ -57,7 +57,7 @@ Confira a nota completa:
 
 <br>
 
-<a id="instalacao"></a>instalacao
+<a id="instalacao"></a>
 <img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=25&pause=1000&color=CCA9DD&vCenter=true&width=435&height=25&lines=INSTALAÇAO" width="450"/>
 
 ---
